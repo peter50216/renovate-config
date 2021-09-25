@@ -9,8 +9,13 @@
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["minor", "patch"],      
+      "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch"],
       "automerge": true
     }
   ]
