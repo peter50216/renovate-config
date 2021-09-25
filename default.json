@@ -14,7 +14,6 @@
       "automerge": true
     },
     {
-      "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["patch"],
       "automerge": true
     }
