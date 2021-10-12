@@ -4,9 +4,15 @@
     ":automergeBranch",
     ":automergeLinters",
     ":automergeTypes",
-    ":maintainLockFilesWeekly",
     ":semanticCommits"
   ],
+  "lockFileMaintenance": {
+    "automerge": true,
+    "enabled": true,
+    "extends": [
+      "schedule:weekly"
+    ]
+  },
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
