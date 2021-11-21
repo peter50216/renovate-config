@@ -23,6 +23,18 @@
     {
       "matchUpdateTypes": ["patch"],
       "automerge": true
+    },
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/vueuse/vueuse"
+      ],
+      "matchUpdateTypes": [
+        "digest",
+        "patch",
+        "minor",
+        "major"
+      ],
+      "groupName": "vueuse monorepo"
     }
   ]
 }
