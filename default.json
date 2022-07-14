@@ -47,6 +47,18 @@
         "major"
       ],
       "groupName": "unocss monorepo"
+    },
+    {
+      "matchSourceUrlPrefixes": [
+        "https://github.com/vitejs/vite"
+      ],
+      "matchUpdateTypes": [
+        "digest",
+        "patch",
+        "minor",
+        "major"
+      ],
+      "groupName": "vite monorepo"
     }
   ]
 }
