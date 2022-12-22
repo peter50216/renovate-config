@@ -38,7 +38,8 @@
     },
     {
       "matchSourceUrlPrefixes": [
-        "https://github.com/unocss/unocss"
+        "https://github.com/unocss/unocss",
+        "https://github.com/antfu/unocss"
       ],
       "matchUpdateTypes": [
         "digest",
